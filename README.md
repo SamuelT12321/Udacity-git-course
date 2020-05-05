@@ -2,7 +2,7 @@
 
 This project is done by following **Udacity git online course**
 
-### `This Project show case how to use below Git commands`
+This Project show case how to use below Git commands
 
 #### First Time Git Configuration: ####
 
@@ -53,7 +53,7 @@ Make sure your are on the project directory
     
 #### Add Commit to Repo  ####  
 
-<a herf="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup">1.6 Getting Started - First-Time Git Setup</a>
+<a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup">1.6 Getting Started - First-Time Git Setup</a>
 
     # To add change or file to stage. {} = either one 
     * git add {FileName}{.}
@@ -64,9 +64,10 @@ Make sure your are on the project directory
     # To see change have not yet committed 
     * git diff
  
-Git Ignore file
-  git ignore any file that start with a dot and will read .gitignore file to ignore add 
-  <a herf="https://en.wikipedia.org/wiki/Glob_(programming)"> globbing </a>
+`Git Ignore file
+  git ignore any file that start with a dot and will read .gitignore file to ignore add` 
+  
+  <a href="https://en.wikipedia.org/wiki/Glob_(programming)">globbing</a>
     
 #### Addictional Required Commands in git bash ####
     *  ls - used to list files and directories
@@ -75,7 +76,7 @@ Git Ignore file
     *  rm - used to remove files and directories
     *  q  -used to exit the bash state
 
-<a herf="https://git-scm.com/docs/git-diff"> Git Docs page </a>
+<a href="https://git-scm.com/docs/git-diff"> Git Docs page </a>
 
 ### License
 myreads is Copyright ©2020 Samuel tam. terms specified in the <a href="https://github.com/SamuelT12321/myreads/blob/master/LICENSE.txt">LICENSE</a> file.
