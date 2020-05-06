@@ -116,7 +116,25 @@ Make sure your are on the project directory
     
     # To see all branch at once 
     * git log --oneline --decorate --graph --all
+
+#### Merging ####
     
+    # To merge branch "footer" to your current brach master (make sure to git checkout to master)
+    * git merge footer
+    
+##### Merge Conflict Indicators Explanation #####
+The editor has the following merge conflict indicators:
+
+    *  <<<<<<< HEAD everything below this line (until the next indicator) shows you what's on the current branch
+    *  ||||||| merged common ancestors everything below this line (until the next indicator) shows you what the original lines were
+    *  ======= is the end of the original lines, everything that follows (until the next indicator) is what's on the branch that's being merged in
+    *  >>>>>>> heading-update is the ending indicator of what's on the branch that's being merged in (in this case, the heading-update branch)
+
+    
+<a href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merging"> Basic Merging from Git Book </a>
+<a href="https://git-scm.com/docs/git-merge"> git-merge from Git Docs </a>
+<a href="https://www.atlassian.com/git/tutorials/using-branches/git-merge"> git merge from Atlassian blog </a>
+
 #### Addictional Required Commands in git bash ####
     *  ls - used to list files and directories
     *  mkdir - used to create a new directory
