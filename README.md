@@ -53,6 +53,9 @@ Make sure your are on the project directory
     # To show some details that are hidden in the default view 
     * git log --decorate
     
+    # Try me out 
+    * git log --oneline --decorate
+    
 #### Add Commit to Repo  ####  
 
 <a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup">1.6 Getting Started - First-Time Git Setup</a>
@@ -85,10 +88,35 @@ Make sure your are on the project directory
     # To delete a Tag
     * git tag -d v1.0
     
-    <a href="https://git-scm.com/docs/git-tag"> Git Tag Docs </a>
-    <a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging"> Git Basics- Tagging from the git book </a>
-    
+<a href="https://git-scm.com/docs/git-tag"> Git Tag Docs </a>
+<a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging"> Git Basics- Tagging from the git book </a>
 
+#### Branching ####
+
+    # To list all branch
+    * git branch
+    
+    # To Create a Branch (make sure your are on current branch ..like master)
+    * git branch sidebar
+    
+    # To switched branch (make sure you have all your work added and commit before checkout)
+    * git checkout sidebar
+    
+    # To create a branch with SHA 424266e
+    * git branch alt-sidebar-loc 424266e
+    
+    # To Delete a branch
+    * git branch -d sidebar
+    
+    # To create a branch call samuel-branch-for-awsome-changes and switch over immediately
+    * git checkout -b samuel-branch-for-awsome-changes
+    
+    # To create a branch call footer from copying master branch and switch over immediately
+    * git checkout -b footer master
+    
+    # To see all branch at once 
+    * git log --oneline --decorate --graph --all
+    
 #### Addictional Required Commands in git bash ####
     *  ls - used to list files and directories
     *  mkdir - used to create a new directory
