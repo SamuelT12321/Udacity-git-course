@@ -50,6 +50,8 @@ Make sure your are on the project directory
     # To display one commit changes. {} = optional
     *  git show {fdf8853}
     
+    # To show some details that are hidden in the default view 
+    * git log --decorate
     
 #### Add Commit to Repo  ####  
 
@@ -68,7 +70,25 @@ Make sure your are on the project directory
   git ignore any file that start with a dot and will read .gitignore file to ignore add` 
   
   <a href="https://en.wikipedia.org/wiki/Glob_(programming)">globbing</a>
+  
+#### Add Tagging ####
+
+    # Add tag to current tag 
+    * git tag -a v1.0
     
+    # To Verify Tag 
+    * git tag 
+    
+    # To make a tag in the previous commit with SHA
+    * git tag -a beta a65e14
+    
+    # To delete a Tag
+    * git tag -d v1.0
+    
+    <a href="https://git-scm.com/docs/git-tag"> Git Tag Docs </a>
+    <a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging"> Git Basics- Tagging from the git book </a>
+    
+
 #### Addictional Required Commands in git bash ####
     *  ls - used to list files and directories
     *  mkdir - used to create a new directory
