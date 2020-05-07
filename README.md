@@ -90,7 +90,7 @@ Make sure your are on the project directory
     # To delete a Tag
     * git tag -d v1.0
     
-<a href="https://git-scm.com/docs/git-tag"> Git Tag Docs </a>
+<a href="https://git-scm.com/docs/git-tag"> Git Tag Docs </a></br>
 <a href="https://git-scm.com/book/en/v2/Git-Basics-Tagging"> Git Basics- Tagging from the git book </a>
 
 #### Branching ####
@@ -133,8 +133,8 @@ The editor has the following merge conflict indicators:
     *  >>>>>>> heading-update is the ending indicator of what's on the branch that's being merged in (in this case, the heading-update branch)
 
     
-<a href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merging"> Basic Merging from Git Book </a>
-<a href="https://git-scm.com/docs/git-merge"> git-merge from Git Docs </a>
+<a href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merging"> Basic Merging from Git Book </a></br>
+<a href="https://git-scm.com/docs/git-merge"> git-merge from Git Docs </a></br>
 <a href="https://www.atlassian.com/git/tutorials/using-branches/git-merge"> git merge from Atlassian blog </a>
 
 ##### Undoing changes #####
@@ -159,12 +159,12 @@ The editor has the following merge conflict indicators:
     * git checkout -- index.html   <- reverst all the changes before merge backup
     * git merge backup
 
-<a href="https://git-scm.com/docs/git-revert">git-revert from Git Docs</>
-<a href="https://www.atlassian.com/git/tutorials/undoing-changes">git revert Atlassian tutorial</>
-<a href="https://git-scm.com/docs/git-reset">git-reset from Git docs</>
-<a href="https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified">Reset Demystified from Git Blog</>
-<a href="https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection#Ancestry-References">Ancestry References from Git Book</>
-    
+<a href="https://git-scm.com/docs/git-revert">git-revert from Git Docs</></br>
+<a href="https://www.atlassian.com/git/tutorials/undoing-changes">git revert Atlassian tutorial</></br>
+<a href="https://git-scm.com/docs/git-reset">git-reset from Git docs</></br>
+<a href="https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified">Reset Demystified from Git Blog</></br>
+<a href="https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection#Ancestry-References">Ancestry References from Git Book</></br>
+<a href="https://github.com/jlord/git-it-electron">try tackling some Git challenges with the Git-it app</a></br>
     
 #### Addictional Required Commands in git bash ####
     *  ls - used to list files and directories
