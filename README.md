@@ -137,6 +137,35 @@ The editor has the following merge conflict indicators:
 <a href="https://git-scm.com/docs/git-merge"> git-merge from Git Docs </a>
 <a href="https://www.atlassian.com/git/tutorials/using-branches/git-merge"> git merge from Atlassian blog </a>
 
+##### Undoing changes #####
+
+    # To forgotten files to commit
+    * git commit --amend
+    
+    # To revert a specific commit
+    * git revert <SHA-of-commit-to-revert>
+
+    # Resetting is Dangerous make sure you know what you are doing :)
+    * git reset <flags> <reference-to-commit>
+        # Flags 
+        * --mixed    <-this will delete the repository master head and move repo master head to working directory
+        * --soft     <-this will delete the repository master head and move repo master head to Staging index
+        * --hard     <-Trash it and never find it again 
+    
+    # Backup Branch, before resetting is good to back it up 
+    * git branch backup
+    
+    # To merge back up
+    * git checkout -- index.html   <- reverst all the changes before merge backup
+    * git merge backup
+
+<a href="https://git-scm.com/docs/git-revert">git-revert from Git Docs</>
+<a href="https://www.atlassian.com/git/tutorials/undoing-changes">git revert Atlassian tutorial</>
+<a href="https://git-scm.com/docs/git-reset">git-reset from Git docs</>
+<a href="https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified">Reset Demystified from Git Blog</>
+<a href="https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection#Ancestry-References">Ancestry References from Git Book</>
+    
+    
 #### Addictional Required Commands in git bash ####
     *  ls - used to list files and directories
     *  mkdir - used to create a new directory
