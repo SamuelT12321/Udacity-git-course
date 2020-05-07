@@ -4,6 +4,8 @@ This project is done by following **Udacity git online course**
 
 This Project show case how to use below Git commands
 
+<a href="https://www.atlassian.com/git/tutorials/syncing">git remote, pull, fetch , push </a>
+
 #### First Time Git Configuration: ####
 
     # sets up Git with your name
